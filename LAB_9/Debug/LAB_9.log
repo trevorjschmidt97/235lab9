@@ -1,0 +1,20 @@
+﻿  main.cpp
+c:\users\trevo\desktop\lab_9\lab_9\hashmap.h(78): warning C4244: '=': conversion from 'double' to 'size_t', possible loss of data
+  c:\users\trevo\desktop\lab_9\lab_9\hashmap.h(74): note: while compiling class template member function 'VALUE &HashMap<std::string,VALUE>::operator [](const KEY &)'
+          with
+          [
+              VALUE=Set<std::string>,
+              KEY=std::string
+          ]
+  c:\users\trevo\desktop\lab_9\lab_9\main.cpp(69): note: see reference to function template instantiation 'VALUE &HashMap<std::string,VALUE>::operator [](const KEY &)' being compiled
+          with
+          [
+              VALUE=Set<std::string>,
+              KEY=std::string
+          ]
+  c:\users\trevo\desktop\lab_9\lab_9\main.cpp(19): note: see reference to class template instantiation 'HashMap<std::string,Set<std::string>>' being compiled
+c:\users\trevo\desktop\lab_9\lab_9\hashmap.h(34): warning C4244: '=': conversion from 'double' to 'size_t', possible loss of data
+  c:\users\trevo\desktop\lab_9\lab_9\hashmap.h(22): note: while compiling class template member function 'void HashMap<std::string,Set<std::string>>::reallocate(void)'
+  c:\users\trevo\desktop\lab_9\lab_9\hashmap.h(98): note: see reference to function template instantiation 'void HashMap<std::string,Set<std::string>>::reallocate(void)' being compiled
+c:\users\trevo\desktop\lab_9\lab_9\hashmap.h(41): warning C4805: '==': unsafe mix of type 'unsigned int' and type 'bool' in operation
+  LAB_9.vcxproj -> C:\Users\trevo\Desktop\LAB_9\Debug\LAB_9.exe
